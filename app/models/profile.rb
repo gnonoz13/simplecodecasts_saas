@@ -7,9 +7,9 @@ class Profile < ActiveRecord::Base
         :storage => :s3,
         :bucket => 'gnrailsimages',
         :s3_credentials => { 
-            :bucket => ENV['gnrailsimages'],
-            :access_key_id => ENV['AKIAJHZBGB5ERIMBBBZQ'],
-            :secret_access_key => ENV['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']
+            :bucket => ENV['S3_BUCKET_NAME'],
+            :access_key_id => ENV['AWS_ACCESS_KEY_ID'],
+            :secret_access_key => ENV['AWS_SECRET_ACCESS_KEY']
             
         }
         validates_attachment_content_type :avatar, content_type: /\Aimage\/.*\Z/
