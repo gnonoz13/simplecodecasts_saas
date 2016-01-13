@@ -86,7 +86,7 @@ Rails.application.configure do
     :storage => :s3,
     :s3_protocol => 'http',
     :s3_credentials => {
-      :bucket => ENV['aramtest1'],
+      :bucket => ENV['gnrailsimages'],
       :access_key_id => ENV['AKIAJHZBGB5ERIMBBBZQ'],
       :secret_access_key => ENV['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']
     }
