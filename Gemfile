@@ -34,5 +34,4 @@ gem 'figaro', '1.0.0'
 
 gem 'paperclip', '4.2.1'
 gem 'autoprefixer-rails'
-gem 'aws-sdk'
 
