@@ -4,7 +4,6 @@ class CreateProfiles < ActiveRecord::Migration
       t.integer :user_id
       t.string :first_name
       t.string :last_name
-      t.string :business_name
       t.string :job_title
       t.string :phone_number
       t.string :contact_email
